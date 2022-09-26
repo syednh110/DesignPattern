@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/DesignPatterns.iml" filepath="$PROJECT_DIR$/DesignPatterns.iml" />
+      <module fileurl="file://$PROJECT_DIR$/low-level-design-primer/low-level-design-primer.iml" filepath="$PROJECT_DIR$/low-level-design-primer/low-level-design-primer.iml" />
     </modules>
   </component>
 </project>
