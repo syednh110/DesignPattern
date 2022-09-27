@@ -1,4 +1,6 @@
 package CreationalDesignPatterns.AbstractDesignPattern;
 
-public class AbstractDesignPattern {
+public interface Device {
+
+    String specification();
 }
