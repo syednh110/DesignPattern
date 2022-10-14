@@ -1,6 +1,4 @@
-package CreationalDesignPatterns.FactoryDesign.allOS;
-
-import CreationalDesignPatterns.FactoryDesign.allOS.OS;
+package CreationalDesignPatterns.FactoryPattern.allOS;
 
 public class Window implements OS {
     @Override

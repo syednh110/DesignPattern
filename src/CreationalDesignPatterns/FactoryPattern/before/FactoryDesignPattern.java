@@ -1,8 +1,8 @@
-package CreationalDesignPatterns.FactoryDesign.before;
+package CreationalDesignPatterns.FactoryPattern.before;
 
-import CreationalDesignPatterns.FactoryDesign.allOS.Andriod;
-import CreationalDesignPatterns.FactoryDesign.allOS.OS;
-import CreationalDesignPatterns.FactoryDesign.allOS.Window;
+import CreationalDesignPatterns.FactoryPattern.allOS.Andriod;
+import CreationalDesignPatterns.FactoryPattern.allOS.OS;
+import CreationalDesignPatterns.FactoryPattern.allOS.Window;
 
 public class FactoryDesignPattern {
     public static void main(String[] args) {

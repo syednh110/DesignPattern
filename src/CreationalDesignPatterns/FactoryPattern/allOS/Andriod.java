@@ -1,4 +1,4 @@
-package CreationalDesignPatterns.FactoryDesign.allOS;
+package CreationalDesignPatterns.FactoryPattern.allOS;
 
 public class Andriod implements OS {
     @Override

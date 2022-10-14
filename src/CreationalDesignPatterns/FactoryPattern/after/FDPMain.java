@@ -1,6 +1,6 @@
-package CreationalDesignPatterns.FactoryDesign.after;
+package CreationalDesignPatterns.FactoryPattern.after;
 
-import CreationalDesignPatterns.FactoryDesign.allOS.OS;
+import CreationalDesignPatterns.FactoryPattern.allOS.OS;
 
 public class FDPMain {
 

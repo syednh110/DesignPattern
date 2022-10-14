@@ -1,4 +1,4 @@
-package CreationalDesignPatterns.FactoryDesign.allOS;
+package CreationalDesignPatterns.FactoryPattern.allOS;
 
 public class IOS implements OS {
     @Override
