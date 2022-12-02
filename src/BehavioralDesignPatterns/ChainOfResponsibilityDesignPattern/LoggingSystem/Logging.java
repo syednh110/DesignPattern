@@ -1,4 +1,4 @@
-package BehavioralDesignPatterns.ChainOfResponsibilityDesignPattern;
+package BehavioralDesignPatterns.ChainOfResponsibilityDesignPattern.LoggingSystem;
 
 public abstract class Logging {
     private Logging nextlogging;

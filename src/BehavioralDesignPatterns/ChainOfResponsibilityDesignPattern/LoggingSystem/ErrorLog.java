@@ -1,6 +1,6 @@
-package BehavioralDesignPatterns.ChainOfResponsibilityDesignPattern;
+package BehavioralDesignPatterns.ChainOfResponsibilityDesignPattern.LoggingSystem;
 
-public class ErrorLog extends Logging{
+public class ErrorLog extends Logging {
     public ErrorLog(Logging logging) {
         super(logging);
     }

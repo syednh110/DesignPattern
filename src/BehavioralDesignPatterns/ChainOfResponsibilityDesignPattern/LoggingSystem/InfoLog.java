@@ -1,6 +1,8 @@
-package BehavioralDesignPatterns.ChainOfResponsibilityDesignPattern;
+package BehavioralDesignPatterns.ChainOfResponsibilityDesignPattern.LoggingSystem;
 
-public class InfoLog extends  Logging{
+import BehavioralDesignPatterns.ChainOfResponsibilityDesignPattern.LoggingSystem.Logging;
+
+public class InfoLog extends Logging {
 
     public InfoLog(Logging logging) {
         super(logging);
