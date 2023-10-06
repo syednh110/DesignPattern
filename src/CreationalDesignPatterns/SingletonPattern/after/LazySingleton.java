@@ -2,10 +2,15 @@ package CreationalDesignPatterns.SingletonPattern.after;
 
 import CreationalDesignPatterns.SingletonPattern.before.Employee;
 
-public class LazySingleton {
+import java.util.Arrays;
+import java.util.List;
+import java.util.stream.Stream;
+
+public class  LazySingleton {
     private String companyName;
     private Employee employee;
     private static LazySingleton companySingleton= null;
+//    List<Integer> var = new ArrayList<>();
 
 
     private LazySingleton(String companyName) {
@@ -17,6 +22,8 @@ public class LazySingleton {
         if(companySingleton == null){
             companySingleton = new LazySingleton("Google");
         }
+        List<String> list = Arrays.asList("apple", "banana", "cherry");
+        Stream<String> stream = list.stream();
         return companySingleton;
     }
 }
