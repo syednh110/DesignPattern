@@ -26,4 +26,47 @@ public class Phone {
                 ", rom=" + rom +
                 '}';
     }
+
+    public String getCompanyName() {
+        return companyName;
+    }
+
+    public void setCompanyName(String companyName) {
+        this.companyName = companyName;
+    }
+
+    public String getProcessor() {
+        return processor;
+    }
+
+    public void setProcessor(String processor) {
+        this.processor = processor;
+    }
+
+    public int getRam() {
+        return ram;
+    }
+
+    public void setRam(int ram) {
+        this.ram = ram;
+    }
+
+    public int getBattery() {
+        return battery;
+    }
+
+    public void setBattery(int battery) {
+        this.battery = battery;
+    }
+
+    public int getRom() {
+        return rom;
+    }
+
+    public void setRom(int rom) {
+        this.rom = rom;
+    }
+
+
+
 }
